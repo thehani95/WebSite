@@ -1,0 +1,105 @@
+
+*{margin: 0; padding:0; }
+
+a{text-decoration: none;}
+
+.clearfix{overflow: auto;}
+
+.wrapper{
+   margin: 0 auto;
+   width: 1000px;
+
+}
+
+body{
+background-color:black;
+background-image: url("13.gif");
+background-repeat: no-repeat;
+
+margin: 0px;
+font-size: 14px;
+}
+
+header{
+background-color:red;
+margin:1px;
+height:85px;
+width: 900px;
+}
+
+
+.top-bar{
+width: 900px;
+background: yellow;
+}
+
+.top-bar-links{
+float:left;
+}
+
+.top-bar-links ul{
+	margin: 15px;
+list-style: none;
+}
+
+.top-bar-links ul li{
+	padding: 0 15px; 
+display: inline-block;
+border-right: 1px solid black; 
+}
+
+.top-bar-links ul li:last-child {
+border: none; 
+}
+
+.top-bar-links ul li a{
+color: black;
+}
+
+.site-search{
+margin: 15px;
+float:right;
+background: white;
+}
+
+.site-search input{
+	border: none;
+}
+
+.nav-bar{
+background: pink;
+width: 900px;
+margin-top: 1px;
+height: 35px;
+}
+
+.nav-bar-links{
+float:left;
+}
+
+.nav-bar-links ul{
+margin: 15px;
+list-style: none;
+display: inline;
+border-top: 5px;
+}
+
+.nav-bar-links ul li{
+	padding: 0 15px; 
+display: inline-block;
+border-top: 5px;
+border-right: 1px solid black; 
+}
+
+.nav-bar-links ul li:last-child {
+border: none; 
+}
+
+.nav-bar-links ul li a{
+color: black;
+}
+
+.logo h1{
+	margin-top: 10px;
+}
+
